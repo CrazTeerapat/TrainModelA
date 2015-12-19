@@ -1,6 +1,8 @@
 package vernity.puttinun.teerapat.mytraffic;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -35,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
                 // Sound Effect
                 MediaPlayer buttonMediaPlayer = MediaPlayer.create(getBaseContext(),R.raw.effect_btn_long);
                 buttonMediaPlayer.start();
+
+                // Intent Webview
+                Intent objIntent = new Intent(Intent.ACTION_VIEW);
+                objIntent.setData(Uri.parse("https://youtu.be/mveNE6xlgU4"));
+                startActivity(objIntent);
+
 
             }   // event
         });
