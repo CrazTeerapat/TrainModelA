@@ -6,4 +6,7 @@
     <dimen name="h1">35sp</dimen>
     <dimen name="h2">25sp</dimen>
     <dimen name="icon">120dp</dimen>
+    <dimen name="imgviews">250dp</dimen>
+    <dimen name="scrollwidth">250dp</dimen>
+    <dimen name="scrollheigh">150dp</dimen>
 </resources>
